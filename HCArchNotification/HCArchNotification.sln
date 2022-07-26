@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HCArchNotification.Domain", "HCArchNotification.Domain\HCArchNotification.Domain.csproj", "{9B2ADE6D-A3A8-4D57-BCA8-30DA15DD8A20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HCArchNotification.Application", "HCArchNotification.Application\HCArchNotification.Application.csproj", "{3637724E-2565-48D1-83EA-AC78487E3F57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HCArchNotification.Domain.Test", "HCArchNotification.Domain.Test\HCArchNotification.Domain.Test.csproj", "{C2CBF898-6B91-4CD4-BF16-B4A9D00271F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HCArchNotification.Infra.Data", "HCArchNotification.Infra.Data\HCArchNotification.Infra.Data.csproj", "{D459B016-E76E-47F4-8C61-C21AEC456930}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HCArchNotification.Infra.Data.IoC", "HCArchNotification.Infra.Data.IoC\HCArchNotification.Infra.Data.IoC.csproj", "{05F073A7-99C7-4FC5-B73B-80C2552C0D7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HCArchNotification.API", "HCArchNotification.API\HCArchNotification.API.csproj", "{B6932A30-E257-47AB-BB02-39EBAC275F67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B2ADE6D-A3A8-4D57-BCA8-30DA15DD8A20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B2ADE6D-A3A8-4D57-BCA8-30DA15DD8A20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B2ADE6D-A3A8-4D57-BCA8-30DA15DD8A20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B2ADE6D-A3A8-4D57-BCA8-30DA15DD8A20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3637724E-2565-48D1-83EA-AC78487E3F57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3637724E-2565-48D1-83EA-AC78487E3F57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3637724E-2565-48D1-83EA-AC78487E3F57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3637724E-2565-48D1-83EA-AC78487E3F57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2CBF898-6B91-4CD4-BF16-B4A9D00271F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2CBF898-6B91-4CD4-BF16-B4A9D00271F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2CBF898-6B91-4CD4-BF16-B4A9D00271F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2CBF898-6B91-4CD4-BF16-B4A9D00271F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D459B016-E76E-47F4-8C61-C21AEC456930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D459B016-E76E-47F4-8C61-C21AEC456930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D459B016-E76E-47F4-8C61-C21AEC456930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D459B016-E76E-47F4-8C61-C21AEC456930}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05F073A7-99C7-4FC5-B73B-80C2552C0D7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05F073A7-99C7-4FC5-B73B-80C2552C0D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05F073A7-99C7-4FC5-B73B-80C2552C0D7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05F073A7-99C7-4FC5-B73B-80C2552C0D7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6932A30-E257-47AB-BB02-39EBAC275F67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6932A30-E257-47AB-BB02-39EBAC275F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6932A30-E257-47AB-BB02-39EBAC275F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6932A30-E257-47AB-BB02-39EBAC275F67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5AB6F0F1-E965-47AB-A322-738E9CAC5B22}
+	EndGlobalSection
+EndGlobal
